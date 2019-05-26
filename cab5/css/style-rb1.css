@@ -1,0 +1,57 @@
+footer {
+    box-shadow: 1px 1px 2px #999;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+#container1 {
+    margin-left: 40px;
+}
+img {
+    width: 125px;
+    height: 28px;
+}
+
+p {
+    font-size: 12px;
+    color: gray;
+}
+
+#container3 {
+    margin-right: 50px;
+}
+button {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border: 0;
+    padding: 4px;
+    margin: 0;
+    width: 85px;
+}
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+
+
+#list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -40px;
+    margin-top: -5px;
+    
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+    
+}

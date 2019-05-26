@@ -1,0 +1,53 @@
+
+header {
+    box-shadow: 1px 1px 2px #999;
+    
+}
+img {
+    width: 140px;
+    height: 25px;
+}
+
+#container {
+    margin: 10px;
+    display: flex; /*organiza os elementos um ao lado do outro*/
+    justify-items: center;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 30px;
+
+}
+
+#list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin-right: 25px;   
+}
+
+.icon {
+    margin-right: 15px;
+    font-size: 25px;  
+}
+
+#pesquisa {
+    display: flex;
+    margin-top: 20px;   
+    
+}
+
+button {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border: 0;
+    padding: 4px;
+    margin: 0;
+    width: 85px;
+}
+
+input  {
+    margin: 0;
+    padding: 2px;
+    width: 300px; 
+       
+}
